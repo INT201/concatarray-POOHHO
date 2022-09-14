@@ -4,7 +4,7 @@
 
 - กรณี array1 และ array2 ทั้งคู่มีค่า null หรือ undefined ให้คืนค่ากลับเป็น undefined
 - กรณี array1 และ array2 ทั้งคู่เป็น empty array ทั้งคู่ ให้ return empty array
-- กรณี array1 หรือ array2 อันใดอันหนึ่ง มีค่าเป็น empty array หรือ มีค่าเป็น null หรือ undefined ให้ return element ของ array ที่มีรายการแทน
+- กรณี array1 หรือ array2 อันใดอันหนึ่ง มีค่าเป็น emptuy array หรือ มีค่าเป็น null หรือ ndefined ให้ return element ของ array ที่มีรายการแทน
 
 - ตัวอย่างเช่น
   1. concatArray([5, 10, 15], [2, 4, 6, 7]) return [ 5, 10, 15, 2, 4, 6, 7]
